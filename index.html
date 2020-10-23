@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arturos es una empresa variada que elabora Hamburguesas, 
+    Supremitas, vegetales y más. Utilizamos solo los mejores ingredientes 
+    para así garantizar el mejor sabor y la más alta calidad de nuestros productos">
+  <meta name="keywords" content="Granja Arturos Productos Milanesas Supremitas Hamburguesas Pescados Vegetales">
+  <title>Granja Arturos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/estilos-scss.css">
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">
+        <h2 class="titulo">Granja Arturitos</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recetas.html">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <section>
+    <!--inicio carrousel de imagenes-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-carrousel" src="imagenes/hamburguesas.jpg" class="d-block w-100" alt="Hamburguesas">
+        </div>
+        <div class="carousel-item">
+          <img class="img-carrousel" src="imagenes/supremitas.jpg" class="d-block w-100" alt="Supremitas de pollo">
+        </div>
+        <div class="carousel-item">
+          <img class="img-carrousel" src="imagenes/formitas.jpg" class="d-block w-100" alt="Formitas de pollo">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--fin carrousel de imagenes-->
+
+  </section>
+
+  
+  <main class="contenido">
+
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="subtitulo">Lo mejor de la naturaleza en tu mesa</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="parrafo1">Día a día se extraen una enorme cantidad de ingredientes de nuestra naturaleza,
+              y nosotros tomamos orgullo de seleccionar únicamente los mejores para garantizar siempre el mejor
+              sabor y la más alta calidad para nuestros productos.
+              Usando solo recursos organicos y renovables, nuestra meta es brindar productos modernos y ricos
+              para dar soluciones prácticas y nutritivas a las familias.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+
+
+  <section>
+    <h3 class="subtitulo3">Los más populares</h3>
+
+    <div class="container-fluid">
+      <div class="row margin-img justify-content-center">
+        <div class="efecto-imagen imagen-producto">
+          <div>
+            <img class="img-fluid" src="imagenes/nuggets.jpg" alt="Nuggets de pollo">
+          </div>
+          <div>
+            <h5 class="subtitulo2">Nuggets</h5>
+          </div>
+        </div>
+        <div class="efecto-imagen imagen-producto">
+          <div>
+            <img class="img-fluid" src="imagenes/filetemerluza.jpg  " alt="Bastoncitos de Merluza">
+          </div>
+          <div>
+            <h5 class="subtitulo2">Filete de Merluza</h5>
+          </div>
+        </div>
+        <div class="efecto-imagen imagen-producto">
+          <div>
+            <img class="img-fluid" src="imagenes/pandecarne.jpg" alt="Pan de Carne">
+          </div>
+          <div>
+            <h5 class="subtitulo2">Pan de Carne con Jamon y Queso</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--link a productos-->
+    <p class="parrafo-link"> <a class="pagelink" href="productos.html"> Y muchos más</a></p>
+  </section>
+
+  <section>
+    <h3 class="subtitulo2">Recetas</h3>
+    <!--se agregara más recetas-->
+    <div class="container-fluid">
+      <div class="row margin-img justify-content-center">
+        <div class="container-overlay imagen-producto">
+          <img src="imagenes/receta1.jpg" alt="Brocoli Gratinado" class="img-fluid">
+          <div class="overlay">
+            <div class="texto-overlay">Brocoli gratinado</div>
+          </div>
+        </div>
+        <div class="container-overlay imagen-producto">
+          <img src="imagenes/tarta-espinacas.jpg" alt="Tarta de espinacas" class="img-fluid">
+          <div class="overlay">
+            <div class="texto-overlay">Tarta de espinacas</div>
+          </div>
+        </div>
+        <div class="container-overlay imagen-producto">
+          <img src="imagenes/receta3.jpg" alt="Pasta corta con Brocoli" class="img-fluid">
+          <div class="overlay">
+            <div class="texto-overlay">Pasta corta con brocoli
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <p class="parrafo-link"><a class="pagelink" href="recetas.html">Descubrí más cosas ricas que podes
+        hacer con Arturitos
+      </a></p>
+
+  </section>
+
+  <footer>
+    <div>
+      <p class="footer">2020 - Granja Arturitos S.A. Todos los derechos reservados <br>
+        Redes Contacto
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

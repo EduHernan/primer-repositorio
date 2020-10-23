@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+.parrafo1 {
+ line-height: 22px;
+ margin-top: 20px;
+ text-align: center;
+ }
+
+ 
+.titulo {
+     font-style: italic;
+     padding: 10px;
+     width: 200px;
+     animation-name: magic;
+     animation-duration: 2s;
+ }
+
+ @keyframes magic {
+     from {
+         color: orangered;  
+     }
+     to {
+         color: rgb(235, 192, 112);
+     }
+ }
+
+.subtitulo {
+     text-align: center;
+     margin-top: 100px;
+     padding: 30px;
+ }
+.subtitulo2 {
+     text-align: center;
+     padding: 30px;
+ }
+
+ .subtitulo3 {
+        text-align: center;
+        margin-top: 200px;
+ }
+
+ .subtitulo4 {
+    text-align: center;
+    padding: 30px;
+ }
+ 
+
+.subtitulo4:hover {
+    text-decoration: underline;
+    color: orangered;
+    transform: translate(0px, -10px);
+    transition: all 1s;
+}
+
+.pagelink {
+    text-decoration: none;
+}
+
+.pagelink:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+ 
+table {
+     margin: 20px;
+     padding: 20px;
+ }
+
+tr th {
+     color: orangered;
+ }
+ 
+tr td {
+     color: darkslategray;
+     padding: 25px;
+ }
+ 
+.footer {
+     margin: 70px;
+     text-align: center;
+ }
+
+.contenido {
+    height: 200px;
+    margin-top: -50px;
+}
+
+.formulario {
+    margin: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin-left: 30px;
+    margin-top: -20px;
+} 
+
+.fotos-ini {
+    width: 350px;
+    height: 250px;
+}
+
+
+/* Sin utilizar
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+*/
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.imh {
+    width: 400px;
+    height: 300px;
+}
+
+.img-carrousel {
+    width: 100%;
+    height: 450px;
+}
+
+.margin-img {
+    margin-top: 50px;
+}
+
+.margin-rec {
+    margin-top: 15px;
+}
+
+.margin-foot {
+    margin-top: 1500px; 
+}
+
+  .container-overlay {
+    position: relative;
+    width: 50%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 1s ease;
+    background-color: lavenderblush;
+  }
+  
+  .container-overlay:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .texto-overlay {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+  }
+
+/* Para Mobile */
+@media only screen and (max-width: 400px) {
+
+    .footer {
+        margin: 210px 120px 120px 120px;
+    }
+
+    .margin-foot {
+        margin-top: 3600px; 
+    }
+
+    .imagen-producto {
+        width: 100%;
+    }
+
+    .subtitulo3 {
+        margin-top: 450px;
+ }
+}
+
+
+/* Para Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    .footer {
+        margin: 190px 120px 120px 120px;
+    }
+
+    .margin-foot {
+        margin-top: 1900px; 
+    }
+    
+    .imagen-producto {
+        width: 50%;
+    }
+
+    .subtitulo3 {
+        margin-top: 350px;
+ }
+
+}
+
+/* Para Pc */
+@media only screen and (min-width: 961px) {
+
+    .imagen-producto {
+        width: 33%;
+    }
+}

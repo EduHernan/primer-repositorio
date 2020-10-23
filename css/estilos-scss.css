@@ -1,0 +1,103 @@
+body {
+  background-color: lavenderblush;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo1 {
+  color: darkslategrey;
+  font-size: 18px;
+}
+
+.parrafo2 {
+  color: darkslategrey;
+  font-size: 18px;
+  margin: 30px;
+}
+
+.parrafo3 {
+  color: darkslategrey;
+}
+
+.parrafo-link {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.titulo {
+  color: orangered;
+}
+
+.subtitulo {
+  color: orangered;
+}
+
+.subtitulo2 {
+  color: orangered;
+}
+
+.subtitulo3 {
+  color: orangered;
+}
+
+.subtitulo4 {
+  color: darkslategrey;
+}
+
+.pagelink {
+  color: darkslategrey;
+}
+
+.footer {
+  color: darkgreen;
+}
+
+.texto-overlay {
+  color: darkslategrey;
+}
+
+ul li {
+  color: darkslategrey;
+  display: inline;
+}
+ul li a {
+  color: darkslategrey;
+  line-height: 22px;
+  text-decoration: none;
+  margin: 5px;
+}
+ul li:hover {
+  text-decoration: underline;
+  color: orangered;
+  transform: translate(0px, -10px);
+  transition: all 1s;
+}
+
+.efecto-imagen:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transition: all 1s ease 1s;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+
+.texto-overlay {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=estilos-scss.css.map */
