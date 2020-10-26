@@ -7,6 +7,7 @@ $margin-prueba: 20px;
 $text-alineacion: center;
 
 
+
 body {
 background-color: $background-color-body;
 font-family: $font;
@@ -21,6 +22,7 @@ font-family: $font;
     color: $fuente-color;
     font-size: $size-parrafo;
     margin: $margin-parrafo;
+    text-align: $text-alineacion;
 }
 
 .parrafo3 {
@@ -63,6 +65,10 @@ font-family: $font;
 
 .texto-overlay {
     color: $fuente-color;
+}
+
+.btn-productos {
+    background-color: $productos-color;
 }
 
 ul li {

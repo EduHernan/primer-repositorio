@@ -12,6 +12,7 @@ body {
   color: darkslategrey;
   font-size: 18px;
   margin: 30px;
+  text-align: center;
 }
 
 .parrafo3 {
@@ -54,6 +55,10 @@ body {
 
 .texto-overlay {
   color: darkslategrey;
+}
+
+.btn-productos {
+  background-color: lavenderblush;
 }
 
 ul li {
