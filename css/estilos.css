@@ -8,7 +8,6 @@
 .parrafo1 {
  line-height: 22px;
  margin-top: 20px;
- text-align: center;
  }
 
  
@@ -30,23 +29,11 @@
  }
 
 .subtitulo {
-     text-align: center;
      margin-top: 100px;
-     padding: 30px;
- }
-.subtitulo2 {
-     text-align: center;
-     padding: 30px;
  }
 
  .subtitulo3 {
-        text-align: center;
         margin-top: 200px;
- }
-
- .subtitulo4 {
-    text-align: center;
-    padding: 30px;
  }
  
 
@@ -82,7 +69,6 @@ tr td {
  
 .footer {
      margin: 70px;
-     text-align: center;
  }
 
 .contenido {
@@ -90,9 +76,6 @@ tr td {
     margin-top: -50px;
 }
 
-.formulario {
-    margin: 20px;
-}
 
 .sidebar {
     width: 200px;
@@ -170,11 +153,9 @@ img {
   }
   
   .texto-overlay {
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    text-align: center;
   }
 
 /* Para Mobile */

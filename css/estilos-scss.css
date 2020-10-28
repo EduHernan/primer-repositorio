@@ -6,6 +6,7 @@ body {
 .parrafo1 {
   color: darkslategrey;
   font-size: 18px;
+  text-align: center;
 }
 
 .parrafo2 {
@@ -31,18 +32,25 @@ body {
 
 .subtitulo {
   color: orangered;
+  text-align: center;
+  padding: 30px;
 }
 
 .subtitulo2 {
   color: orangered;
+  text-align: center;
+  padding: 30px;
 }
 
 .subtitulo3 {
   color: orangered;
+  text-align: center;
 }
 
 .subtitulo4 {
   color: darkslategrey;
+  text-align: center;
+  padding: 30px;
 }
 
 .pagelink {
@@ -51,14 +59,21 @@ body {
 
 .footer {
   color: darkgreen;
+  text-align: center;
 }
 
 .texto-overlay {
   color: darkslategrey;
+  text-align: center;
+  font-size: 20px;
 }
 
 .btn-productos {
   background-color: lavenderblush;
+}
+
+.formulario {
+  margin: 30px;
 }
 
 ul li {

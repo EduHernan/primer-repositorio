@@ -4,7 +4,8 @@ $size-parrafo: 18px;
 $size-link: 20px;
 $margin-parrafo: 30px;
 $margin-prueba: 20px;
-$text-alineacion: center;
+$texto-alineacion: center;
+$padding-subtitulos: 30px;
 
 
 
@@ -16,13 +17,14 @@ font-family: $font;
 .parrafo1 {
     color: $fuente-color;
     font-size: $size-parrafo;
+    text-align: $texto-alineacion;
 }
 
 .parrafo2 {
     color: $fuente-color;
     font-size: $size-parrafo;
     margin: $margin-parrafo;
-    text-align: $text-alineacion;
+    text-align: $texto-alineacion;
 }
 
 .parrafo3 {
@@ -32,7 +34,7 @@ font-family: $font;
 .parrafo-link {
     font-size: $size-link;
     margin-top: $margin-parrafo;
-    text-align: $text-alineacion;
+    text-align: $texto-alineacion;
 }
 
 .titulo {
@@ -41,18 +43,25 @@ font-family: $font;
 
 .subtitulo {
     color: $titulo-color;
+    text-align: $texto-alineacion;
+    padding: $padding-subtitulos;
 }
 
 .subtitulo2 {
     color: $titulo-color;
+    text-align: $texto-alineacion;
+    padding: $padding-subtitulos;
 }
 
 .subtitulo3 {
     color: $titulo-color;
+    text-align: $texto-alineacion;
 }
 
 .subtitulo4 {
     color: $fuente-color;
+    text-align: $texto-alineacion;
+    padding: $padding-subtitulos;
 }
 
 .pagelink {
@@ -61,14 +70,21 @@ font-family: $font;
 
 .footer {
     color: $footer-color;
+    text-align: $texto-alineacion;
 }
 
 .texto-overlay {
     color: $fuente-color;
+    text-align: $texto-alineacion;
+    font-size: $size-link;
 }
 
 .btn-productos {
-    background-color: $productos-color;
+    background-color: $productos-color
+}
+
+.formulario {
+    margin: $margin-parrafo;
 }
 
 ul li {
