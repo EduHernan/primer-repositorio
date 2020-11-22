@@ -13,14 +13,15 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/estilos-scss.css">
+  <script src="https://kit.fontawesome.com/aa6bf3c527.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
     <!--Inicio menu responsive-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">
-        <h1 class="titulo">Granja Arturitos</h1>
+        <h1 class="titulo">Granja Arturo's</h1>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,20 +29,20 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
-          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="productos.html">Productos <span class="sr-only">(current)</span></a>
+            <a class="nav-custom" href="index.html">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="recetas.html">Recetas</a>
+            <a class="nav-custom" href="productos.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+            <a class="nav-custom" href="recetas.html">Recetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-custom" href="quienes-somos.html">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-custom" href="contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
@@ -75,7 +76,27 @@
                 <img class="img-fluid" src="imagenes/hamburguesas.jpg" alt="Hamburguesas">
               </div>
               <div>
-                <h5 class="subtitulo2">Hamburguesas</h5>
+                <h5 class="nombre-producto">Hamburguesas</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' a la plancha </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">6 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">158 Kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
@@ -83,7 +104,27 @@
                 <img class="img-fluid" src="imagenes/albondigas-especiadas.jpg  " alt="Bastoncitos de Merluza">
               </div>
               <div>
-                <h5 class="subtitulo2">Filete de Merluza</h5>
+                <h5 class="nombre-producto">Albondigas</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">6 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">123 Kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
@@ -91,7 +132,27 @@
                 <img class="img-fluid" src="imagenes/pandecarne.jpg" alt="Pan de Carne">
               </div>
               <div>
-                <h5 class="subtitulo2">Pan de Carne con Jamon y Queso</h5>
+                <h5 class="nombre-producto">Pan de Carne con Jamon y queso</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">20' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">6 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">192 Kcal</p>
+                </div>
               </div>
             </div>
           </div>
@@ -117,15 +178,83 @@
                 <img class="img-fluid" src="imagenes/supremitas.jpg" alt="Supremas de pollo">
               </div>
               <div>
-                <h5 class="subtitulo2">Supremitas</h5>
+                <h5 class="nombre-producto">Supremitas</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">12 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">239  Kcal</p>
+                </div>
               </div>
             </div>
-            <div class="imagen-producto">
+            <div class="imagen-producto"> 
               <div>
                 <img class="img-fluid" src="imagenes/nuggets.jpg" alt="Nuggets de pollo">
               </div>
               <div>
-                <h5 class="subtitulo2">Nuggets</h5>
+                <h5 class="nombre-producto">Nuggets</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">12 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">239 Kcal</p>
+                </div>
+              </div>
+            </div>
+            <div class="imagen-producto">
+              <div>
+                <img class="img-fluid" src="imagenes/medallones1.jpg" alt="Medallones de pollo">
+              </div>
+              <div>
+                <h5 class="nombre-producto">Medallones</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">12 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">243 Kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
@@ -133,7 +262,27 @@
                 <img class="img-fluid" src="imagenes/formitas.jpg" alt="Formitas de pollo">
               </div>
               <div>
-                <h5 class="subtitulo2">Formitas</h5>
+                <h5 class="nombre-producto">Formitas</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">14' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">12 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">239 Kcal</p>
+                </div>
               </div>
             </div>
           </div>
@@ -154,10 +303,30 @@
           <div class="row justify-content-center btn-productos">
             <div class="imagen-producto">
               <div>
-                <img class="img-fluid" src="imagenes/filetemerluza.jpg" alt="Filetes de merluza">
+                <img class="img-fluid" src="imagenes/filet-de-merluza1.jpg" alt="Filetes de merluza">
               </div>
               <div>
-                <h5 class="subtitulo2">Filetes de merluza</h5>
+                <h5 class="nombre-producto">Filetes de merluza</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' a la plancha </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">6 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">158 Kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
@@ -165,7 +334,27 @@
                 <img class="img-fluid" src="imagenes/bastoncitos.jpg  " alt="Bastoncitos de Merluza">
               </div>
               <div>
-                <h5 class="subtitulo2">Bastoncitos de merluza</h5>
+                <h5 class="nombre-producto">Bastoncitos de merluza</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' a la plancha </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">6 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">158 Kcal</p>
+                </div>
               </div>
             </div>
             
@@ -189,15 +378,55 @@
                 <img class="img-fluid" src="imagenes/Brocoli.jpg" alt="Brocoli">
               </div>
               <div>
-                <h5 class="subtitulo2">Brocoli</h5>
+                <h5 class="nombre-producto">Brocoli</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">5' hervido </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">18 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">20 Kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
               <div>
-                <img class="img-fluid" src="imagenes/pimientos.jpg  " alt="Pimientos">
+                <img class="img-fluid" src="imagenes/pimientos.jpg" alt="Pimientos">
               </div>
               <div>
-                <h5 class="subtitulo2">Pimientos</h5>
+                <h5 class="nombre-producto">Pimientos</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">15' al horno </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">18 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">24 kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
@@ -205,23 +434,83 @@
                 <img class="img-fluid" src="imagenes/espinacas.jpg" alt="Espinacas">
               </div>
               <div>
-                <h5 class="subtitulo2">Espinacas</h5>
+                <h5 class="nombre-producto">Espinacas</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">4' hervidas </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">18 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">37 kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
               <div>
-                <img class="img-fluid" src="imagenes/choclo.jpg  " alt="Choclo">
+                <img class="img-fluid" src="imagenes/choclo.jpg" alt="Choclo">
               </div>
               <div>
-                <h5 class="subtitulo2">Choclo</h5>
+                <h5 class="nombre-producto">Choclo</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">4' hervido </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">18 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">66 kcal</p>
+                </div>
               </div>
             </div>
             <div class="imagen-producto">
               <div>
-                <img class="img-fluid" src="imagenes/zanahorias.jpg" alt="Zanahorias">
+                <img class="img-fluid" src="imagenes/cebolla.jpg" alt="Cebolla">
               </div>
               <div>
-                <h5 class="subtitulo2">Zanahorias</h5>
+                <h5 class="nombre-producto">Cebolla en cubitos</h5>
+              </div>
+              <div class="propiedades-container">
+                <div class="col">
+                  <img class="" src="imagenes/hornear.svg" alt="">
+                  <br>
+                  <strong>cocción</strong>
+                  <p class="parrafo-propiedades">4' hervidas </p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/vida-util.svg" alt="">
+                  <strong>Conservación</strong>
+                  <br>
+                  <p class="parrafo-propiedades">18 meses en freezer</p>
+                </div>
+                <div class="col">
+                  <img class="" src="imagenes/nutricion.svg" alt="">
+                  <strong>Nutrición</strong>
+                  <br>
+                  <p class="parrafo-propiedades">12 kcal</p>
+                </div>
               </div>
             </div>
           </div>
@@ -231,10 +520,23 @@
   </section>
 
   <footer>
-    <p class="footer">2020 - Granja Arturitos S.A. Todos los derechos reservados <br>
-      Redes Contacto
-    </p>
+    <!--Inicio footer-->
+    <div class="footer-margin">
+    <div>
+      <p class="footer-title">2020 - Granja Arturitos S.A. Todos los derechos reservados</p>
+    </div>
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-facebook-f fa-2x iconcolor spacing"></i></a> 
+      <a href="#"><i class="fab fa-instagram fa-2x iconcolor spacing"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x iconcolor spacing"></i></a> 
+      <a class="pagelink" href="contacto.html"><span class="margin-contacto">Contacto</span></a>  
+    </div> 
+  </div>    
+    <!--Fin footer-->          
+    
   </footer>
+  
+  <!--Scripts bootstrap-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>

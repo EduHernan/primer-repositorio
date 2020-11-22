@@ -13,14 +13,15 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/estilos-scss.css">
+  <script src="https://kit.fontawesome.com/aa6bf3c527.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!--Inicio menu responsive-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">
-        <h2 class="titulo">Granja Arturitos</h2>
+        <h1 class="titulo">Granja Arturo's</h1>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,24 +30,24 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-custom" href="index.html">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="productos.html">Productos</a>
+            <a class="nav-custom" href="productos.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="recetas.html">Recetas</a>
+            <a class="nav-custom" href="recetas.html">Recetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+            <a class="nav-custom" href="quienes-somos.html">Quienes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-custom" href="contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
-
+     <!--fin menu responsive-->
   </header>
 
   <section>
@@ -60,13 +61,28 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="img-carrousel mobile-adjust" src="imagenes/hamburguesas2.jpg" class="d-block w-100" alt="Hamburguesas">
+          <img class="img-carrousel mobile-adjust" src="imagenes/supremitas2.jpg"
+           class="d-block w-100" alt="Hamburguesas">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Arturo's</h5>
+            <p>¡De la granja a tu hogar!</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="img-carrousel mobile-adjust" src="imagenes/supremitas2.jpg" class="d-block w-100" alt="Supremitas de pollo">
+          <img class="img-carrousel mobile-adjust" src="imagenes/corte-carne (3).jpg" 
+          class="d-block w-100" alt="Supremitas de pollo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¡Nuevos productos!</h5>
+            <p>Más variedad en tu mesa. ¡100% carne vacuna!</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="img-carrousel mobile-adjust" src="imagenes/nuggets2.jpg" class="d-block w-100" alt="Formitas de pollo">
+          <img class="img-carrousel mobile-adjust" src="imagenes/Medallon-pollo-humita.jpg" 
+          class="d-block w-100" alt="Formitas de pollo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¿Qué comer hoy?</h5>
+            <p>En Arturo's tenemos las mejores ideas para tus platos </p>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -109,21 +125,22 @@
 
 
   <section>
+    <!--Inicio muestra productos-->
     <h3 class="subtitulo3">Los más populares</h3>
 
-    <div class="container">
+    <div class="container" >
       <div class="row margin-img justify-content-center">
         <div class="efecto-imagen imagen-producto">
           <div>
             <img class="img-fluid" src="imagenes/nuggets.jpg" alt="Nuggets de pollo">
           </div>
           <div>
-            <h5 class="subtitulo2">Nuggets</h5>
+            <h5 class="subtitulo2">Nuggets de pollo</h5>
           </div>
         </div>
         <div class="efecto-imagen imagen-producto">
           <div>
-            <img class="img-fluid" src="imagenes/filetemerluza.jpg  " alt="Bastoncitos de Merluza">
+            <img class="img-fluid" src="imagenes/filet-de-merluza2.jpg" alt="Filete de merluza">
           </div>
           <div>
             <h5 class="subtitulo2">Filete de Merluza</h5>
@@ -136,36 +153,55 @@
           <div>
             <h5 class="subtitulo2">Pan de Carne con Jamon y Queso</h5>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
+    <!--Fin muestra productos-->
+
 
     <!--link a productos-->
-    <p class="parrafo-link"> <a class="pagelink" href="productos.html"> Y muchos más</a></p>
+    <p class="link-productos"> <a class="pagelink" href="productos.html"> Y muchos más</a></p>
   </section>
 
   <section>
+    <div class="col-lg-12 back-padding" style="background-image: url(imagenes/pollo-background.jpg); 
+    background-size: cover; background-position: center;">
+      <div>
+      </div>
+    </div>
+     <div class="col-md-10 back-section-padding">
+        <h3 class="subtitulo5"><strong> Arturo's</strong> siempre cerca tuyo</h3>
+        <p class="parrafo1">
+          Estamos en constante crecimiento y expansión para acercarte todos 
+          los productos Arturo's a tu mesa, estés donde estés. 
+          <a class="contacto-link" href="contacto.html">¡Consultanos por tu punto de venta más cercano!</a>
+        </p>
+      </div>
+
+    
+  </section>
+
+  <section style="background-image: url(imagenes/vegetales.jpg); background-size: contain; background-position: center;">
     <h3 class="subtitulo2">Recetas</h3>
-    <!--se agregara más recetas-->
+    <!--Inicio muestra recetas-->
     <div class="container">
       <div class="row margin-img justify-content-center">
         <div class="container-overlay imagen-producto">
-          <img src="imagenes/Brocoli-gratinado.jpg" alt="Brocoli Gratinado" class="img-fluid">
+          <img src="imagenes/Suprema-estragon-thumb.jpg" alt="Brocoli Gratinado" class="img-fluid">
           <div class="overlay">
             <div class="texto-overlay">Brocoli gratinado</div>
           </div>
         </div>
         <div class="container-overlay imagen-producto">
-          <img src="imagenes/tarta-espinacas.jpg" alt="Tarta de espinacas" class="img-fluid">
+          <img src="imagenes/brocoli-gratinado-thumb.jpg" alt="Tarta de espinacas" class="img-fluid">
           <div class="overlay">
             <div class="texto-overlay">Tarta de espinacas</div>
           </div>
         </div>
         <div class="container-overlay imagen-producto">
-          <img src="imagenes/Pasta-brocoli.jpg" alt="Pasta corta con Brocoli" class="img-fluid">
+          <img src="imagenes/budin-espinaca-thumb.jpg" alt="Pasta corta con Brocoli" class="img-fluid">
           <div class="overlay">
             <div class="texto-overlay">Pasta corta con brocoli
-
             </div>
           </div>
         </div>
@@ -173,19 +209,30 @@
       </div>
     </div>
     <p class="parrafo-link"><a class="pagelink" href="recetas.html">Descubrí más cosas ricas que podes
-        hacer con Arturitos
-      </a></p>
+        hacer con Arturitos</a>
+     </p>
+        
+    <!--Fin muestra recetas-->
 
   </section>
 
   <footer>
+    <!--Inicio footer-->
+    <div class="footer-margin">
     <div>
-      <p class="footer">2020 - Granja Arturitos S.A. Todos los derechos reservados <br>
-        Redes Contacto
-      </p>
+      <p class="footer-title">2020 - Granja Arturitos S.A. Todos los derechos reservados</p>
     </div>
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-facebook-f fa-2x iconcolor spacing"></i></a> 
+      <a href="#"><i class="fab fa-instagram fa-2x iconcolor spacing"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x iconcolor spacing"></i></a> 
+      <a class="pagelink" href="contacto.html"><span class="margin-contacto">Contacto</span></a>  
+    </div> 
+  </div>              
+    <!--Fin footer-->
   </footer>
-
+  
+  <!--Scripts bootstrap-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>

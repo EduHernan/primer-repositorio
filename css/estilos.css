@@ -12,21 +12,12 @@
 
  
 .titulo {
-     font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+     word-spacing: 10px;
      padding: 10px;
-     width: 200px;
-     animation-name: magic;
-     animation-duration: 2s;
+     width: 250px;
  }
 
- @keyframes magic {
-     from {
-         color: orangered;  
-     }
-     to {
-         color: rgb(235, 192, 112);
-     }
- }
 
 .subtitulo {
      margin-top: 100px;
@@ -35,6 +26,21 @@
  .subtitulo3 {
         margin-top: 200px;
  }
+
+ .nav-custom {
+    color: darkslategray;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    padding-top: 15px;
+    margin-left: 18px;
+    
+ }
+
+ .nav-custom:hover {
+     color: orangered;
+ }
+
  
 
 .subtitulo4:hover {
@@ -52,6 +58,20 @@
     text-decoration: underline;
     color: orangered;
 }
+
+.contacto-link {
+    text-decoration: none;
+    color: red;
+}
+
+.contacto-link:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.border-effect:hover {
+    border: 3px solid orangered;
+}
  
 table {
      margin: 20px;
@@ -66,9 +86,29 @@ tr td {
      color: darkslategray;
      padding: 25px;
  }
+
+ .footer-margin {
+     background-color: #f4ede1;
+     padding-top: 70px;
+     padding-bottom: 30px;
+ }
  
-.footer {
-     margin: 70px;
+.footer-title {
+     margin-bottom: 20px;
+     text-align: center;
+ }
+
+ .footer-icons {
+    text-align: center;
+ }
+ 
+ .spacing {
+     letter-spacing: 10px;
+ }
+
+ .margin-contacto {
+    margin-left: 15px;
+    font-size: 20px; 
  }
 
 .contenido {
@@ -91,24 +131,32 @@ tr td {
     color: rgb(245, 65, 0);
 }
 
+.nombre-producto {
+   color: orangered;
+   text-align: center;
+   padding-top: 20px;
+   
+}
 
-/* Sin utilizar
-.header-container {
-    width: 100%;
-    display: flex;
+.iconcolor {
+    color: darkslategray
+}
+
+.nombre-producto::after {
+    content: '';
+    display: block;
+    width: 50px;
+    border-top: 2px solid #444;
+    margin: 20px auto;
+}
+
+.propiedades-container {
+    display: flex;  
     justify-content: center;
     flex-wrap: wrap;
-}
-*/
-
-img {
-    width: 400px;
-    height: 300px;
-}
-
-.imh {
-    width: 400px;
-    height: 300px;
+    text-align: center;
+    vertical-align: top;
+    
 }
 
 
@@ -122,12 +170,22 @@ img {
     margin-top: 50px;
 }
 
+.margin-empresa {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .margin-rec {
     margin-top: 15px;
 }
 
-.margin-foot {
-    margin-top: 1200px; 
+.back-padding {
+    padding: 80px;
+    text-align: center;
+}
+
+.back-section-padding {
+    padding: 50px;
 }
 
   .container-overlay {
@@ -158,16 +216,10 @@ img {
     left: 50%;
   }
 
+
 /* Para Mobile */
 @media only screen and (max-width: 400px) {
 
-    .footer {
-        margin: 210px 120px 120px 120px;
-    }
-
-    .margin-foot {
-        margin-top: 3100px; 
-    }
 
     .imagen-producto {
         width: 100%;
@@ -180,20 +232,12 @@ img {
     .mobile-adjust {
         height: 400px;
     }
-
 }
 
 
 /* Para Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-    .footer {
-        margin: 190px 120px 120px 120px;
-    }
-
-    .margin-foot {
-        margin-top: 1500px; 
-    }
     
     .imagen-producto {
         width: 50%;
@@ -211,4 +255,5 @@ img {
     .imagen-producto {
         width: 33%;
     }
+
 }
